@@ -6,9 +6,17 @@ int main(){
   for(int i = 1; i <= a; i++){
     scanf("%d", &b);
 
-    // while(b % 10 != 0){
-    //     b = b / 10;
-    // }
+     if(b == 0){
+      printf("%d", b);
+    }
+
+    while(b != 0){
+
+        printf("%d ", b%10);
+        b = b / 10;
+    }
+
+   
     printf("\n");
 
   }
