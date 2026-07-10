@@ -1,13 +1,2 @@
-6
-6
-syzygy
-3
-cry
-9
-locksmith
-6
-scream
-7
-aqueous
-9
-worldview
+5
+2 4 1 5 3
