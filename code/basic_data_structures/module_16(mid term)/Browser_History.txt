@@ -1,0 +1,27 @@
+Hackerrank Profile Link: https://www.hackerrank.com/profile/devjunayed
+HackerRank Username: @devjunayed
+
+Theoretical Question Answer:
+
+Question Analysis: প্রশ্নে দেওয়া আছে যে আমাকে একটি doubly linked list দেওয়া হবে যেটার মধ্যে উনিক স্ট্রিং ভ্যালু থাকবে যা ওয়েব অ্যাড্রেস  কে নির্দেশ  করে । যদি visit address কমান্ড থাকে তাহলে লিস্ট থেকে অ্যাড্রেস প্রিন্ট করতে হবে। আর যদ কমান্ড এ next থাকে তাহলে নেক্সট অ্যাড্রেস প্রিন্ট করা লাগবে । যদি কমান্ড এ prev থাকে তাহলে প্রিভিয়াস ভ্যালু প্রিন্ট করা লাগবে যদি কোনো ভ্যালু না থাকে তাহলে Not Available প্রিন্ট করা লাগবে ।
+
+
+Observation:
+ডাবলি লিঙ্কেড লিস্ট দিয়ে আমারা ইমপ্লমেন্ট করতে পারি যেখানে আমরা ইফ এলস দিয়ে কমান্ড  অনুসারে  visit, prev, next এর অপারেশান গুলো করতে পারি ।
+
+Testcase Analysis:
+
+লিস্ট হিসেবে দেওয়া আছে : facebook google phitron youtube twitter end 
+কতগুলো অপারেশান: 4
+
+কমান্ড ১: visit phitron (এখানে আমরা প্রথমে visit phitron কে দুইটা ওয়ার্ড এ ভাগ করলাম তারপর phitron ওয়ার্ড কে লিস্ট এ খুজলাম এবং প্রিন্ট করলাম । যেহেতু লিঙ্কেড লিস্ট দিয়ে করেছি বর্তমান pointer phitron কে পয়েন্ট করতেছে ) 
+-> phitron
+
+কমান্ড ২: prev (phitron এর প্রিভিয়াস ভ্যালু google তাই google প্রিন্ট করবে)
+-> google
+
+কমান্ড ৩: visit django (ওয়ার্ড গুলো ভাগ করার পর django অ্যাড্রেস পাওয়া যায়নি তাই Not Available)
+-> Not Available
+
+কমান্ড ৪: next ( পয়েন্টার এখনো google কে পয়েন্ট করছে  তাই google এর নেক্সট value phitron প্রিন্ট করবে)
+-> phitron
