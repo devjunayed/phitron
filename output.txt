@@ -1,12 +1,1 @@
-phitron
-google
-facebook
-Not Available
-Not Available
-google
-twitter
-Not Available
-Not Available
-youtube
-Not Available
-phitron
+40 20 50 60 30 10 
